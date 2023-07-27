@@ -1,3 +1,7 @@
-# lab-08
+# auth-api
 
-Combining servers lab
+## By: Lacey Washington
+
+## UMI
+
+![Combining servers lab](./Server%20UMI.png)
