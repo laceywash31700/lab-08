@@ -1,2 +1,3 @@
 # lab-08
-Combining servers lab 
+
+Combining servers lab
