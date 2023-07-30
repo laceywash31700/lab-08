@@ -8,6 +8,7 @@ const logger = require('./middleware/logger.js');
 const authRoutes = require('./auth/routes.js');
 
 const v1Routes = require('./routes/v1.js');
+const v2Routes = require('./routes/v2.js');
 
 const app = express();
 // App Level MW
@@ -18,8 +19,11 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(logger);
 
+
 app.use('/api/v1', v1Routes);
 //localhost:3000/api/v1/food/2
+
+app.use('/api/v2', v2Routes);
 
 // Routes
 app.use(authRoutes);
